@@ -225,7 +225,7 @@ RFConfig_s RFConfig;
 /*-------------------PIN DEFINITIONS----------------------*/
 #ifndef RF_RECEIVER_GPIO
 #  ifdef ESP8266
-#    define RF_RECEIVER_GPIO 0 // D3 on nodemcu // put 4 with rf bridge direct mod
+#    define RF_RECEIVER_GPIO 4 // D3 on nodemcu // put 4 with rf bridge direct mod
 #  elif ESP32
 #    define RF_RECEIVER_GPIO 27 // D27 on DOIT ESP32
 #  endif
